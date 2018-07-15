@@ -63,15 +63,21 @@ nav span {
 /* Mission Section */
 
 #mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg);
   padding-top: 70px;
 }
 
 #mission .content {
+  padding-top: 300px;
   margin: auto;
-  background-color: black;
+
   width: 100%;
+
+}
+
+#mission h2, h4 {
+  background-color: black;
 }
 
 /* Store Section */
